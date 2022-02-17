@@ -1,20 +1,21 @@
-const { validateSchema } = require('../utils/validations')
-const prompt = require("prompt-sync")({ sigint: true });
-const password = prompt("type your password: ")
+const prompt = require('prompt-sync')({ sigint: true });
+const { validateSchema } = require('../utils/validations');
 
-const validatePassword = (password) => {
-  if (password.length >= 6) {
-    if (!validateSchema.upperCase(password)) return 'Falta letra caixa alta.'
-    if (!validateSchema.lowerCase(password)) return 'Falta letra caixa baixa.'
-    if (!validateSchema.number(password)) return 'Falta número.'
-    if (!validateSchema.special(password)) return 'Falta caractere especial.'
+const password = prompt('type your password: ');
+
+const validatePassword = (str) => {
+  if (str.length >= 6) {
+    if (!validateSchema.upperCase(str)) return 'Falta letra caixa alta.';
+    if (!validateSchema.lowerCase(str)) return 'Falta letra caixa baixa.';
+    if (!validateSchema.number(str)) return 'Falta número.';
+    if (!validateSchema.special(str)) return 'Falta caractere especial.';
   }
-  return validateSchema.password(password)
-}
+  return validateSchema.password(str);
+};
 
-console.log(validatePassword(password))
+console.log(validatePassword(password));
 
-module.exports = { 
+module.exports = {
   validatePassword,
 };
 
