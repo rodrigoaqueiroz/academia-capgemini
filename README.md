@@ -11,6 +11,7 @@
   - [1 - Escreva um algoritmo que mostra na tela uma escada de tamanho n.](##questão1)
   - [2 - Construa um algoritmo para verificar a segurança da senha.](##questão2)
   - [3 - Desenvolva um que enconrte o número de pares de substrings que são anagramas.](##questão3)
+- [Contatos](#contatos)
 
 ---
 # Pre-requisitos:
@@ -103,7 +104,7 @@ Explicaçao: A lista de todos os anagramas pares são: [i, i], [q, q] e [ifa, fa
 
 ---
 
-## Contatos:
+# Contatos:
 
 <div style="display: flex; align-items: center; justify-content: space-between;">
   <div>
