@@ -2,7 +2,7 @@
 
 ---
 
-## Sumário
+# Sumário
 - [Pre-requisitos](#pre-requisitos)
 - [Habilidades](#habilidades)
 - [Instruções de como rodar as aplicações](#instruções)
