@@ -7,39 +7,39 @@ describe('test makeAsteriskStairs function', () => {
   });
 
   it('test input type string', async () => {
-    let INPUT = 'imNotANumber'
+    const INPUT = 'imNotANumber';
     process.nextTick(() => {
       stdin.send(INPUT);
     });
     const result = await makeAsteriskStairs(INPUT);
-    expect(result).toStrictEqual([])
-  }); 
+    expect(result).toStrictEqual([]);
+  });
 
   it('test input number smaller than 1', async () => {
-    let INPUT = 0  
+    const INPUT = 0;
     process.nextTick(() => {
       stdin.send(INPUT);
     });
     const result = await makeAsteriskStairs(INPUT);
-    expect(result).toStrictEqual([])
-  }); 
-  
+    expect(result).toStrictEqual([]);
+  });
+
   it('input n = 6', async () => {
-    let INPUT = 6
+    const INPUT = 6;
     process.nextTick(() => {
       stdin.send(INPUT);
     });
     const result = await makeAsteriskStairs(INPUT);
-    expect(result).toStrictEqual([ 
-      '     *', 
-      '    **', 
-      '   ***', 
-      '  ****', 
-      ' *****', 
-      '******', 
+    expect(result).toStrictEqual([
+      '     *',
+      '    **',
+      '   ***',
+      '  ****',
+      ' *****',
+      '******',
     ]);
-    stdin.restore()
+    stdin.restore();
   });
 });
 
-//referência: https://medium.com/@altshort/unit-testing-node-cli-apps-with-jest-2cd4adc599fb
+// referência: https://medium.com/@altshort/unit-testing-node-cli-apps-with-jest-2cd4adc599fb

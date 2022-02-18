@@ -7,22 +7,22 @@ describe('test countAnagrams function', () => {
   });
 
   it('test if ovo returns 2', async () => {
-    let INPUT = 'ovo'
+    const INPUT = 'ovo';
     process.nextTick(() => {
       stdin.send(INPUT);
     });
     const result = await countAnagrams(INPUT);
     expect(result).toStrictEqual(2);
     stdin.restore();
-  }); 
+  });
 
   it('test if ifailuhkqq returns 3', async () => {
-    let INPUT = 'ifailuhkqq'
+    const INPUT = 'ifailuhkqq';
     process.nextTick(() => {
       stdin.send(INPUT);
     });
     const result = await countAnagrams(INPUT);
     expect(result).toStrictEqual(3);
     stdin.restore();
-  }); 
+  });
 });
