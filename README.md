@@ -2,15 +2,16 @@
 
 ---
 
-## Sumário
+# Sumário
 - [Pre-requisitos](#pre-requisitos)
 - [Habilidades](#habilidades)
-- [Instruções de como rodar as aplicações](#instruções)
-- [Testes](#instruções)
+- [Instruções](#instruções)
+- [Testes](#testes)
 - [Requisitos do projeto](#requisitos-do-projeto)
   - [1 - Escreva um algoritmo que mostra na tela uma escada de tamanho n.](##questão1)
   - [2 - Construa um algoritmo para verificar a segurança da senha.](##questão2)
   - [3 - Desenvolva um que enconrte o número de pares de substrings que são anagramas.](##questão3)
+- [Contatos](#contatos)
 
 ---
 # Pre-requisitos:
@@ -23,7 +24,7 @@
 - Teste unitários com o Jest;
 - Linter para fazer a análise estática do código;
 ---
-# Instuções
+# Instruções
 
 1. Clone o repositório
 - `git clone repositório`
@@ -103,7 +104,7 @@ Explicaçao: A lista de todos os anagramas pares são: [i, i], [q, q] e [ifa, fa
 
 ---
 
-## Contatos:
+# Contatos:
 
 <div style="display: flex; align-items: center; justify-content: space-between;">
   <div>
@@ -118,7 +119,7 @@ Explicaçao: A lista de todos os anagramas pares são: [i, i], [q, q] e [ifa, fa
   <br/>
   <div style="display: flex;align-items: center;">
     <img src="./src/images/email-logo.png" alt="email-logo" style= 'width:20px; padding: 5px'/></img>
-    rodrigoandradequeiroz@gmail.com
+    <a href="mailto:rodrigoandradequeiroz@gmail.com">rodrigoandradequeiroz@gmail.com</a>
   </div>
 <br/>
 
