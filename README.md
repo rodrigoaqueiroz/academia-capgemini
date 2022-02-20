@@ -10,7 +10,7 @@
 - [Requisitos do projeto](#requisitos-do-projeto)
   - [1 - Escreva um algoritmo que mostra na tela uma escada de tamanho n.](##questão1)
   - [2 - Construa um algoritmo para verificar a segurança da senha.](##questão2)
-  - [3 - Desenvolva um que enconrte o número de pares de substrings que são anagramas.](##questão3)
+  - [3 - Desenvolva um algoritmo que encontre o número de pares de substrings que são anagramas.](##questão3)
 - [Contatos](#contatos)
 
 ---
